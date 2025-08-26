@@ -25,23 +25,6 @@ from PySide6.QtWidgets import (
 from PySide6.QtUiTools import QUiLoader
 from PySide6 import QtCore, QtGui, QtWidgets
 
-def reelle_loesninger_til_andengradsligning(a, b, c):
-    """Denne funktion modtager a, b og c-koefficienterne til en andengradsligning sat op på standardform som argumenter og returnerer de reelle løsninger."""
-    d = b**2 - (4*a * c)
-
-    if d < 0:
-        print ("Ingen løsning")
-    elif d == 0:
-        x = -b/(2*a)
-        print(x)
-    elif d > 0:
-        x = (-b + d**0.5)/(2*a)
-        y = (-b - d**0.5)/(2*a)
-        if x <= y:
-            print(x,  y)
-        else:
-            print(y, x)
-
 loader = QUiLoader()
 
 

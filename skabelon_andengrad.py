@@ -46,6 +46,8 @@ class HovedVindue(QMainWindow):
         self.setWindowTitle("Andengradsligningsløser")
         # Herunder skal oprette de noedvendige widgets
         # og soerge for at saette dem op i et ordentligt layout.
+        
+        
         # Herunder skal I saette jeres signaler og slots op
         # Hvis man har en knap, som hedder self.beregn_knap kan det se nogenlunde
         # saaledes ud
