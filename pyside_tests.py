@@ -40,9 +40,9 @@ def maths(a, b, c):
             window.answer_2.setNum(y)
             window.solution_checker.setText("Ingen problemer")
         
-def mainwindow_setup(w):
+def mainwindow_setup(n):
     """Hænger knappen sammen med matematikken"""
-    w.pushButton.clicked.connect(calculate)
+    n.calculate.clicked.connect(calculate)
 
     
 def calculate():
